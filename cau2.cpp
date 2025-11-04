@@ -124,7 +124,7 @@ public:
     Vemaybay* ve;
 
     void Nhap() {
-        Nguoi::Nhap();
+        Nguoi::Nhap(); // gọi lại hàm Nhap() của lớp cha Nguoi
 
         do {
             cout << "Nhap so luong ve: ";
@@ -142,7 +142,7 @@ public:
     }
 
     void Xuat() {
-        Nguoi::Xuat();
+        Nguoi::Xuat(); // gọi lại hàm Xuat() của lớp cha Nguoi
         cout << "So luong ve: " << soluong << endl;
         for (int i = 0; i < soluong; i++) {
             cout << "  - Thong tin ve thu " << i + 1 << ":\n";

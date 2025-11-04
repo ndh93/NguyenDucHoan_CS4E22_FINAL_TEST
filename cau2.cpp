@@ -43,7 +43,7 @@ class Vemaybay {
 public:
     string tenchuyen;
     string ngaybay;
-    double giave;
+    double giave; // giá vé có thẻ có phần thập phân nên dùng kiểu double.
 
     void Nhap() {
         cout << "  Nhap ten chuyen bay: ";
